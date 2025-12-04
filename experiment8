@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-shopping </title>
+    <style>
+        .shopping{
+            background-color: rgb(179, 176, 176);
+            width: auto;
+            height: 30px;
+            text-align: center;
+            padding-top: 5px;  
+            padding-bottom: 5px;
+            font-size: 25px;   
+            font-weight: bold;  
+        }
+
+        /* First line links (blue) */
+        .first a {
+            display: inline-block;
+            background: #a6a5f2;
+            color: rgb(46, 7, 242);
+            padding: 5px 20px;
+            margin-right: 10px; 
+            margin-top: 20px;
+        }
+
+        .second a {
+            display: inline-block;
+            background: #f9a3a3;
+            color: red; 
+            padding: 5px 20px;
+            margin-right: 10px; 
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shopping">E-Shoping</div>
+
+    <div class="first">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="second">
+        <a href="#">Dashboard</a>
+        <a href="#">Service</a>
+        <a href="#">Menu</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+</body>
+</html>
