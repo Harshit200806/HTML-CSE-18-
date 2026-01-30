@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tribute</title>
+<style>
+body {
+    background:#fafafa;
+    font-family:Arial;
+}
+.box {
+    width:400px;
+    margin:100px auto;
+    background:white;
+    padding:20px;
+    text-align:center;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+<h1>Dr. A.P.J. Abdul Kalam</h1>
+<p>Missile Man of India</p>
+<p>Inspiration to millions</p>
+</div>
+
+</body>
+</html>
