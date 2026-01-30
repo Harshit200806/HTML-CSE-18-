@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+body { font-family:Arial; background:#eee; }
+form {
+    width:300px;
+    background:white;
+    padding:20px;
+    margin:auto;
+}
+input, select {
+    width:100%;
+    padding:6px;
+    margin:6px 0;
+}
+</style>
+</head>
+<body>
+
+<form>
+<h2>Registration</h2>
+<input type="text" placeholder="Name">
+<input type="email" placeholder="Email">
+Gender:
+<input type="radio" name="g"> Male
+<input type="radio" name="g"> Female
+<select>
+    <option>Course</option>
+    <option>CSE</option>
+    <option>IT</option>
+</select>
+<input type="submit">
+</form>
+
+</body>
+</html>
