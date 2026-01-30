@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+    width:200px;
+    border:1px solid #ccc;
+    padding:15px;
+    margin:100px auto;
+    text-align:center;
+}
+button {
+    background:green;
+    color:white;
+    border:none;
+    padding:6px 12px;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+<h3>Headphones</h3>
+<p>₹999</p>
+<button>Buy Now</button>
+</div>
+
+</body>
+</html>
