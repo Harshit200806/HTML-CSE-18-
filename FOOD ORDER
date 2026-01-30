@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Corner</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+/* Header */
+header{
+    background:#b22222;
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+/* Navbar */
+nav{
+    background:black;
+    padding:10px;
+    text-align:center;
+}
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+nav a:hover{
+    color:orange;
+}
+
+/* Sections */
+section{
+    padding:40px;
+    text-align:center;
+}
+
+/* Services */
+.services div{
+    width:200px;
+    border:1px solid #ccc;
+    display:inline-block;
+    margin:10px;
+    padding:15px;
+}
+
+/* Contact Form */
+input{
+    padding:8px;
+    width:200px;
+    margin:5px;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Food Corner</h1>
+    <p>Fresh • Tasty • Affordable</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>Welcome</h2>
+    <p>
+        Food Corner is a simple restaurant website created using HTML and internal CSS.
+        We provide quality food with excellent service.
+    </p>
+</section>
+
+<section class="services">
+    <h2>Our Services</h2>
+
+    <div>
+        <h3>Dine In</h3>
+        <p>Comfortable seating and fresh food.</p>
+    </div>
+
+    <div>
+        <h3>Home Delivery</h3>
+        <p>Fast and hygienic delivery.</p>
+    </div>
+
+    <div>
+        <h3>Take Away</h3>
+        <p>Order and pick up quickly.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>📍 Pune | 📞 9876543210</p>
+    <input type="text" placeholder="Name"><br>
+    <input type="email" placeholder="Email"><br>
+    <input type="text" placeholder="Message"><br><br>
+    <button>Send</button>
+</section>
+
+<footer>
+    <p>© 2026 Food Corner Website</p>
+</footer>
+
+</body>
+</html>
